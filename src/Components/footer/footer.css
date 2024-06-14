@@ -1,0 +1,132 @@
+.footer {
+  padding: 20px 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.footerOne {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-left: -23px;
+  width: calc(100vw - 18px) !important;
+  background-color: var(--main-color);
+}
+.footerOne h3 {
+  color: #fff;
+  font-weight: bold;
+}
+.footerOne input,
+.footerOne button {
+  padding: 10px;
+  border: none;
+}
+.footerOne input:focus {
+  outline: none;
+}
+.footerOne button {
+  background-color: #000;
+  color: white;
+}
+
+.footerTwo {
+  margin-bottom: -100px !important;
+  margin-left: -23px;
+  background-color: black;
+  width: calc(100vw - 18px) !important;
+  padding: 30px;
+  color: white;
+}
+
+.columnOneFooter {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 30px !important;
+}
+.columnOneFooter::after {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 3px;
+  bottom: -10px;
+  left: 0;
+  background-color: var(--main-color);
+}
+.columnOneFooter svg {
+  font-size: 20px;
+}
+.columnOneFooter h6 {
+  margin-left: 6px;
+  margin-top: 6px;
+}
+
+.listFooter {
+  text-align: left;
+}
+.listFooter li {
+  margin-bottom: 12px !important;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.listFooter li:hover {
+  transform: translateX(10px) !important;
+  -webkit-transform: translateX(10px) !important;
+  -moz-transform: translateX(10px) !important;
+  -ms-transform: translateX(10px) !important;
+  -o-transform: translateX(10px) !important;
+}
+.listFooter li a {
+  color: white;
+  text-transform: capitalize !important;
+}
+.columnOneFooter {
+  margin-left: 50px;
+}
+.listFooter li:hover a {
+  color: var(--main-color);
+}
+.shop {
+  margin-left: -5px !important;
+  font-size: 18px;
+}
+.footerTwo .social {
+  display: flex;
+  margin-top: 30px;
+}
+.footerTwo .social li a {
+  color: white;
+  font-size: 25px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.footerTwo .social li a:hover {
+  color: var(--main-color);
+}
+@media (max-width: 1000px) {
+  .footerOne,
+  .footerTwo {
+    width: 99vw !important;
+  }
+  .footerOne {
+    text-align: center;
+    flex-direction: column;
+  }
+  .subscribe {
+    margin-top: 20px;
+  }
+  .footerTwo .social li a {
+    font-size: 20px;
+  }
+}

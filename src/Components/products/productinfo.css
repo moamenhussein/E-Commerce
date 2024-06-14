@@ -1,0 +1,80 @@
+.productpage {
+  position: absolute;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.image img {
+  padding-top: 20px;
+  width: 400px;
+  height: 400px;
+}
+.infoBox {
+  border: 1px solid #000;
+  padding: 10px 20px;
+}
+@media(max-width: 1000px) {
+  .infoBox {
+    margin-top: 20px;
+  }
+  .image img {
+    width: 250px;
+    height: 250px;
+  }
+}
+.stars {
+  color: yellow;
+}
+.title {
+  margin-top: 15px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+}
+.headingDiscription {
+  position: relative;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.headingDiscription::after {
+  position: absolute;
+  content: "";
+  width: 135px;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: var(--main-color);
+}
+.description {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+}
+.flexDiv {
+  display: flex;
+  align-items: center;
+}
+.flexDiv svg {
+  font-size: 22px;
+  color: var(--main-color);
+}
+.flexDiv p {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.containerInformation {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: -3px -5px 9px 4px var(--main-color);
+}

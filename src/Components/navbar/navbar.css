@@ -1,0 +1,38 @@
+.navbarfixed {
+  top: 0;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+}
+.imageLogo {
+  width: 150px;
+}
+ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 20px;
+  color: #000;
+  font-weight: 400;
+}
+.active {
+  color: var(--main-color);
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled):focus {
+  cursor: pointer;
+  border: 2px solid var(--main-color);
+  outline: none;
+}
+.navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler:focus {
+  outline: none !important;
+}
+@media(max-width: 1000px) {
+  ul li {
+    margin-bottom: 12px;
+  }
+}
+.search {
+  margin-left: 10px;
+}

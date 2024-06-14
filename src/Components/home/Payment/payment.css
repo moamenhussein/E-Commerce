@@ -1,0 +1,25 @@
+.paymentContainer {
+  margin-top: 80px;
+  
+}
+.columnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border: 2px solid #1f2937;
+  margin-left: 80px;
+}
+.columnContainer svg {
+  font-size: 30px;
+  margin-top: -20px;
+}
+.columnContainer .columnInfo {
+  margin-left: 15px;
+}
+@media(max-width: 1000px) {
+  .columnContainer {
+    margin-left: 5px;
+    margin-top: 10px !important;
+  }
+}

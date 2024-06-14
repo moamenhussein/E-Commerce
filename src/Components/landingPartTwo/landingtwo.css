@@ -1,0 +1,51 @@
+.landinginfoTwo,
+.landinginfoThree {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+.landinginfoTwo {
+  background-image: url("../../Images/landingThree.webp");
+}
+.landinginfoThree {
+  background-image: url("../../Images/landingFour.webp");
+}
+.heading {
+  font-size: 13px;
+  position: relative;
+  top: 50%;
+  padding-left: 10px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  line-height: 1.8;
+  color: #1f2937;
+}
+.heading span {
+  font-size: 18px;
+  font-weight: bold;
+}
+@media (max-width: 1000px) {
+  .landinginfoTwo,
+  .landinginfoThree {
+    width: 250px;
+    height: 150px;
+  }
+  .landingContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+    
+  }
+  .heading {
+    font-size: 10px;
+  }
+  .heading span {
+    font-size: 12px;
+  }
+}
